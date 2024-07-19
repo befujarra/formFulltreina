@@ -39,7 +39,7 @@ Este arquivo contém o JavaScript necessário para a funcionalidade do modal. O 
 1. **Clone o repositório** (se aplicável):
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone (https://github.com/befujarra/formFulltreina.git)
    ```
 
 2. **Configure o servidor**:
