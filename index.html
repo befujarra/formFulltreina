@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo 500x500 (1).png" alt="Logo da Instituição" class="logo">
+    </header>
+
+    <div class="card">
+        <div class="container">
+        
+            <section class="intro">
+                <h1>Formulário de Certificação!</h1>
+                <p> Preencha o formulário abaixo com seus dados, que serão utilizados no certificado.</p>
+            </section>
+            
+            <section class="form-section">
+                <form id="studentForm" action="https://api.sheetmonkey.io/form/iMegcpWoX7U8VHSC5DyL1R" method="post">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="document">Número de documento (RG):</label>
+                        <input type="text" id="document" name="document" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="consent1" name="consent1" required>
+                            Declaro que os dados informados são verdadeiros.
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="consent2" name="consent2">
+                            Autorizo o contato de empresas parceiras por e-mail, WhatsApp e outros meios de comunicação <a href="#" id="openModal">Saiba mais sobre as empresas.</a>
+                        </label>
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </section>
+            
+            <footer>
+                <p>&copy; 2024 Fulltreina Consultoria e Treinamentos. Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Empresas Parceiras</h2><br>
+            <p>Aqui estão algumas das empresas parceiras que poderão entrar em contato com você:</p>
+            <ul><br>
+                <li>SAT Soluções - <a href="https://www.satsolucoes.com.br/">https://www.satsolucoes.com.br/</a></li>
+                
+                <!-- Adicione mais empresas conforme necessário -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
