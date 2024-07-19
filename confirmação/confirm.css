@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o background */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: #333;
+    
+    height: 100vh;
+}
+.confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-container {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+header .logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+}
+
+.message h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
